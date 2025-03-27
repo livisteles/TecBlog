@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6;;
+}
+
+/* **** LAYOUT  CABEÇALHO **** */
+
+#area-cabecalho {
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+    /* isso foi suficiente para centralizar o cabeçalho*/
+}
+
+#area-logo,
+#area-menu {
+    padding: 10px;
+}
+
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+.branco {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: #f7b600;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#area-menu a:link,
+#area-menu a:visited {
+    color: #fff;
+    padding: 10px;
+    font-weight: 600;
+}
+
+#area-menu a:hover {
+    background-color: white;
+    text-decoration: none;
+    color: #f7b600;
+}
+
+/* **** LAYOUT PARTE PRINCIPAL **** */
+
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#postagens-principal {
+    width: 660px;
+    float: left;
+}
+
+#menu-lateral {
+    width: 240px;
+    float: right;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+}
+
+/* **** POSTAGENS **** */
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+img {
+    width: 620px;
+}
+
+h2 {
+    color: #f7b600;
+}
+
+.data-postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+/* **** POSTAGEM LATERAL **** */
+
+.conteudo-lateral {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
+}
+
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
